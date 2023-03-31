@@ -1,0 +1,165 @@
+name: untitled17
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.4 <3.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  flutter_app_icons: ^0.0.1
+  flutter_rating_bar: ^4.0.1
+  clippy_flutter: ^2.0.0-nullsafety.1
+  awesome_card: ^1.1.5
+  inkwell_splash: ^0.0.1
+  babstrap_settings_screen: ^0.0.2
+  badges: ^2.0.1
+  animated_splash_screen: ^1.1.0
+  google_fonts:
+  firebase_core: ^2.7.1
+  firebase_auth: ^4.2.10
+  cloud_firestore: ^4.4.4
+  lottie: ^2.2.0
+  flutter_signin_button: ^2.0.0
+  google_sign_in: ^5.1.1
+  provider: ^5.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+     - lib/image/Untitled design (4).jpg
+     - lib/image/FB_IMG_1656177490915.jpg
+     - lib/image/Burger-Transparent-Images.png
+     - lib/image/prodect/product/وجبات_خفيفة_وسريعة.jpg
+     - lib/image/prodect/product/قطع-من-اللحم-و-الدجاج-على-اللهب-AR05132020-1024x640.jpg
+     - lib/image/prodect/product/فوائد_تناول_السمك_المشوي.jpg
+     - lib/image/prodect/product/طريقة_عمل_مشروبات_ساخنة_وباردة.jpg
+     - lib/image/prodect/product/المحمرة.jpeg
+     - lib/image/prodect/product/الكبة-النية.jpeg
+     - lib/image/prodect/product/الحمص.jpeg
+     - lib/image/prodect/product/إعداد_وجبات_سريعة.jpg
+     - lib/image/prodect/product/tbl_articles_article_23574_40589a60165-7880-4bda-a774-de24458bd85b.jpg
+     - lib/image/prodect/product/pro3.jpg
+     - lib/image/prodect/product/pro2.jpg
+     - lib/image/prodect/product/pro1.jpg
+     - lib/image/prodect/product/png-clipart-dish-pizza-vinaigrette-fish-delivery-grilled-salmon-food-recipe-thumbnail.png
+     - lib/image/prodect/product/hqdefault.jpg
+     - lib/image/prodect/product/e50a60d225f29aad8fdaa0cee7fc40f74320d9fc.jpg
+     - lib/image/prodect/product/DPNNSKnUIAAeFm7.jpg
+     - lib/image/prodect/product/download (1).jpg
+     - lib/image/prodect/product/download.jpg
+     - lib/image/prodect/product/b1dd498275fbb203a8305e74cfa22f5c43f5a104.jpg
+     - lib/image/prodect/product/2017716113116493X.jpg
+     - lib/image/prodect/product/132659a54db998ff1d9d141fd47eced6_w750_h750.jpg
+     - lib/image/prodect/product/80-084521-the-drinks-avoid-losing-weight_700x400.jpeg
+     - lib/image/prodect/product/5dd2ceac3468f.jpg
+     - lib/image/prodect/product/3e732a48a046e77c8b815d083ad1f768650x300.jpg
+     - lib/image/prodect/product/prodect1/s-1669306928611889.jpg
+     - lib/image/prodect/product/prodect1/s-166930706919642.jpg
+     - lib/image/prodect/product/prodect1/mcd-HM_Cheeseburger-uae_product-header-desktop.jpg
+     - lib/image/prodect/product/prodect1/f2f2e455-4e57-476c-ba08-3d7a1ba6168b.jpg
+     - lib/image/prodect/product/prodect1/download1.jpg
+     - lib/image/prodect/product/prodect1/download.jpg
+     - lib/image/prodect/product/prodect1/download.jpg
+     - lib/image/prodect/product/prodect1/295bec3e-d991-4c0b-9405-3656ab6af64d.jpg
+     - lib/image/categry/category/cat119.png
+     - lib/image/categry/category/cat117.jpg
+     - lib/image/categry/category/cat116.jpg
+     - lib/image/categry/category/cat115.jpg
+     - lib/image/categry/category/cat114.jpg
+     - lib/image/categry/category/cat113.jpg
+     - lib/image/categry/category/cat112.jpg
+     - lib/image/categry/category/cat10.png
+     - lib/image/categry/category/cat9.png
+     - lib/image/categry/category/cat8.png
+     - lib/image/categry/category/cat7.png
+     - lib/image/categry/category/cat6.png
+     - lib/image/categry/category/cat5.png
+     - lib/image/categry/category/cat4.png
+     - lib/image/categry/category/cat3.png
+     - lib/image/categry/category/cat2.png
+     - lib/image/categry/category/cat1.png
+     - lib/image/categry/category/333818057_5936974193054884_5264766224626077663_n.jpg
+     - lib/image/categry/category/272910249_5110853315605840_8802646346150420748_n.jpg
+     - lib/image/categry/category/163630356_103652945153374_2967020047252622093_n.jpg
+     - lib/image/categry/category/70185994_396356651256360_2515547635004211200_n.jpg
+     - lib/image/api_image_anmi/94030-pizza-process.json
+     - lib/image/api_image_anmi/82624-foodies.json
+     - lib/image/api_image_anmi/21652-delivery-guy-waiting.json
+  #   - images/a_dot_ham.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
